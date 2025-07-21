@@ -9,7 +9,9 @@ export default defineConfig({
     enabled: false
   },
   prefetch: true,
-  site: 'https://playersclub88.netlify.app/',
+  site: 'https://dev-pongsit.github.io',
+    base: '/Test-103/',
+      output: 'static',
   integrations: [sitemap()],
   experimental: {
     // svg: true,
