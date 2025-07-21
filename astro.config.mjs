@@ -12,6 +12,6 @@ export default defineConfig({
   site: 'https://playersclub88.netlify.app/',
   integrations: [sitemap()],
   experimental: {
-    svg: true,
+    // svg: true,
   },
 });
