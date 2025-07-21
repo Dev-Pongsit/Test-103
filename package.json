@@ -19,6 +19,7 @@
     "lenis": "^1.1.17"
   },
   "devDependencies": {
-    "@types/imagesloaded": "^4.1.6"
+    "@types/imagesloaded": "^4.1.6",
+    "vite-plugin-svgr": "^4.3.0"
   }
 }

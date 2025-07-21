@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-
 import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
@@ -10,10 +9,8 @@ export default defineConfig({
   },
   prefetch: true,
   site: 'https://dev-pongsit.github.io',
-    base: '/Test-103/',
-      output: 'static',
+  // base: '/Test-103/',
+  output: 'static',
   integrations: [sitemap()],
-  experimental: {
-    // svg: true,
-  },
+  // experimental: { svg: true },  <-- ลบออก
 });
